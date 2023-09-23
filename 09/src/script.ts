@@ -131,3 +131,5 @@ async function fetchUsers(): Promise<Student[]> {
 type Student1 = Awaited<ReturnType<typeof fetchUsers>>
 
 const st1: Student1 = [{ class: 10, id: 100, grade: Grade.A }]
+
+export type Vanilla = string

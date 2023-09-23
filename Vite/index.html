@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Better To-Do</title>
+  </head>
+  <body>
+    <div id="app">
+      <form id="todo-form">
+        <label for="new-item">Create a new To-Do</label>
+        <button type="button" id="clear-all">Clear All</button>
+        <input name="new-item" id="new-item" />
+        <button>Add</button>
+      </form>
+      <ul id="list-container"></ul>
+    </div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>

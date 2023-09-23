@@ -1,0 +1,16 @@
+input[id='new-item'] {
+  display: block;
+  margin: 1rem 0;
+}
+
+button[class='delete-item'] {
+  padding: 0.1rem 0.5rem;
+  margin-left: 1rem;
+  background-color: tomato;
+  border: 1px solid grey;
+  border-radius: 0.5rem;
+}
+
+input[class='todo-checkbox'] {
+  margin-right: 0.5rem;
+}
